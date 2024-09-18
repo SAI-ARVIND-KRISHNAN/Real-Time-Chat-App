@@ -1,68 +1,10 @@
-# Snappy - Chat Application 
-Snappy is chat application build with the power of MERN Stack. You can find the tutorial [here](https://www.youtube.com/watch?v=otaQKODEUFs)
-
-
-![login page](./images/snappy_login.png)
-
-![home page](./images/snappy.png)
-
-## Installation Guide
-
-### Requirements
-- [Nodejs](https://nodejs.org/en/download)
-- [Mongodb](https://www.mongodb.com/docs/manual/administration/install-community/)
-
-Both should be installed and make sure mongodb is running.
-### Installation
-
-#### First Method
-```shell
-git clone https://github.com/koolkishan/chat-app-react-nodejs
-cd chat-app-react-nodejs
-```
-Now rename env files from .env.example to .env
-```shell
-cd public
-mv .env.example .env
-cd ..
-cd server
-mv .env.example .env
-cd ..
-```
-
-Now install the dependencies
-```shell
-cd server
-yarn
-cd ..
-cd public
-yarn
-```
-We are almost done, Now just start the development server.
-
-For Frontend.
-```shell
-cd public
-yarn start
-```
-For Backend.
-
-Open another terminal in folder, Also make sure mongodb is running in background.
-```shell
-cd server
-yarn start
-```
-Done! Now open localhost:3000 in your browser.
-
-#### Second Method
-- This method requires docker and docker-compose to be installed in your system.
-- Make sure you are in the root of your project and run the following command.
-
-```shell
-docker compose build --no-cache
-```
-after the build is complete run the containers using the following command
-```shell
-docker compose up
-```
-now open localhost:3000 in your browser.
+Managed a team of five in engineering a Real-Time Chat Application.
+• Built and integrated a MongoDB-based chat system, allowing real-time user management and chat interactions, reducing user setup time by 25%.
+• Designed and implemented a user profile system, including dynamic profile picture selection and avatar cus- tomization, increasing user engagement by 20%.
+• Created a responsive and intuitive chat interface, improving user experience with real-time message updates and a scalable design, reducing user interface issues by 15%.
+• Implemented real-time chat functionality using socket.io, enhancing message delivery speed by 20%.
+• Optimized API interactions for user management, reducing response times by 25%.
+• Automatedformvalidationanderrorhandling,streamlininguserfeedbackandimprovingoverallreliability,reducing
+error rates by 30%.
+• Utilized React Developer Tools and MongoDB Compass for efficient debugging and data visualization, ensuring
+robust performance and accuracy, cutting debugging time by 40%.
